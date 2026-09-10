@@ -1,0 +1,87 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python caches, virtual environments, and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+.env/
+pip-wheel-metadata/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+*.secrets
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+credentials.json
+service-account*.json
+
+# Logs and local runtime state
+*.log
+*.pid
+*.pid.lock
+kafka_pipeline/logs/
+logs/
+
+# Raw and generated project data
+data/source/
+data/prepared/
+scripts/data/
+output/
+hdfs/
+
+# Spark, Hadoop, Hive, and local database runtime files
+spark-warehouse/
+metastore_db/
+derby.log
+checkpoints/
+checkpoint/
+*.crc
+
+# Jupyter and notebook-generated files
+.ipynb_checkpoints/
+
+# Temporary files and archives
+*.tmp
+*.temp
+*.bak
+*.orig
+*.zip
+*.tar
+*.tar.gz
+
+# Tableau extracts and temporary lock files
+*.hyper
+*.tde
+*.twb~
+*.twbx~
+~$*
